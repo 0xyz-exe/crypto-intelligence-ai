@@ -25,7 +25,8 @@
 - Do not configure local inference: Ollama daemon is unavailable and no model is installed/verified.
 
 ## Phase 6 — Watchlist and UX
-- Add browser-local persistence and empty/error/loading states, accessible controls, reduced motion and narrow-layout checks.
+- Browser-local watchlist persistence, empty/error/loading states, accessible controls, reduced motion and narrow-layout checks are implemented.
+- One-time local account setup/login, loopback-only session protection, logout, and server SQLite paper-account/order/mark synchronization are implemented; paper halt state is persisted and server-enforced.
 
 ## Phase 7–9 — Reliability, security, verification and docs
 - Audit request validation, output rendering, secrets, cost boundaries, provider abuse and dependency state.

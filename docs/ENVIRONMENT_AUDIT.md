@@ -18,7 +18,7 @@
 | Disk | C: reports ~378 GB available via `df`; PowerShell confirms ~405.9 GB free |
 | Memory | Windows reports ~16.5 GB total visible and ~6.9 GB free at audit time |
 | Ollama | Command is present but reports it cannot connect to a running instance; no model downloaded or runtime installed by this task |
-| Playwright CLI | `playwright-cli` is not globally available; `npx` is available. Hermes desktop browser tools are available for manual browser checks |
+| Playwright CLI | Initially unavailable; added dev dependency `@playwright/test` and installed Chromium 1.64.1 for this repository. Browser GUI session was blocked because Edge's profile is locked; E2E ran in a separate Playwright-managed Chromium process instead |
 | Target repository | Newly created empty directory; not previously a Git repository |
 
 ## Platform constraints and decisions
