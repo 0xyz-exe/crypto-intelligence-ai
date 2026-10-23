@@ -2,6 +2,22 @@
 
 A local, single-user cryptocurrency research workspace with clearly labeled demo fixtures, Binance Spot market data, deterministic technical indicators and an optional free-only AI explanation. Manual paper trades are simulated only. **This app has no testnet or live exchange execution.** It is not investment advice.
 
+Repository: https://github.com/0xyz-exe/crypto-intelligence-ai
+
+## Screenshots
+
+### Market Intelligence Dashboard
+![Market dashboard](docs/screenshots/01_market_dashboard.png)
+
+### Deterministic Technical Analysis & Charts
+![Technical analysis](docs/screenshots/02_technical_analysis.png)
+
+### Simulated Paper Trading & Equity Curve
+![Paper trading](docs/screenshots/03_paper_trading.png)
+
+### AI Market Summaries & Indicator Insights
+![AI market summaries](docs/screenshots/04_ai_summaries.png)
+
 ## Requirements
 
 - Node.js 22 or newer (verified here with Node 26.7.0) and npm.
