@@ -6,17 +6,21 @@ Repository: https://github.com/0xyz-exe/crypto-intelligence-ai
 
 ## Screenshots
 
-### Market Intelligence Dashboard
-![Market dashboard](docs/screenshots/01_market_dashboard.png)
+### 1. Market Intelligence Dashboard
+Antarmuka dasbor cerdas untuk pemantauan pasar cryptocurrency secara real-time yang menampilkan kartu metrik utama (jumlah aset terkurasi, status mode feed aktif, pergerakan 24 jam Bitcoin, dan timestamp sinkronisasi bursa terkini), grafik kinerja harga interaktif dengan timeframes variabel, serta panel asisten riset pasar berbasis kalkulasi deterministik:
+![Market Intelligence Dashboard](docs/screenshots/01_market_dashboard.png)
 
-### Deterministic Technical Analysis & Charts
-![Technical analysis](docs/screenshots/02_technical_analysis.png)
+### 2. Deterministic Technical Analysis & Charts
+Penjelajah analisis teknikal mendalam yang menyajikan grafik indikator terhitung (RSI 14, 20-period EMA, MACD 12/26/9, rentang Bollinger Bands ±2σ, dan ATR 14) serta kedalaman buku pesanan (order book) Binance Spot 100 level yang disinkronkan secara sekuensial (`@depth@100ms`) untuk memantau likuiditas bid/ask dan estimasi spread spread bps secara transparan:
+![Deterministic Technical Analysis & Charts](docs/screenshots/02_technical_analysis.png)
 
-### Simulated Paper Trading & Equity Curve
-![Paper trading](docs/screenshots/03_paper_trading.png)
+### 3. Simulated Paper Trading & Equity Curve
+Modul simulasi paper trading lokal yang aman dan terisolasi dengan penegakan batas risiko server-side (maksimum 0.5% risiko ekuitas per order, eksposur agregat 20%, dan circuit breaker batas kerugian harian 2%). Dilengkapi visualisasi grafik kurva ekuitas akumulatif, kendali server kill switch, pencatatan transaksi transaksional berbasis SQLite, serta tabel pemantauan posisi aktif dan riwayat eksekusi pesanan terverifikasi:
+![Simulated Paper Trading & Equity Curve](docs/screenshots/03_paper_trading.png)
 
-### AI Market Summaries & Indicator Insights
-![AI market summaries](docs/screenshots/04_ai_summaries.png)
+### 4. AI Market Summaries & Indicator Insights
+Ringkasan intelijen pasar komprehensif berbasis interpretasi deterministik berbasis bukti (grounded indicators) tanpa risiko halusinasi, menyajikan kalkulasi indikator volatilitas dan momentum terkini, telaah faktor risiko pasar aset digital, batasan metodologi data, serta dukungan integrasi model inferensi bahasa bebas biaya (free-only OpenRouter) yang terlabel transparan:
+![AI Market Summaries & Indicator Insights](docs/screenshots/04_ai_summaries.png)
 
 ## Requirements
 
